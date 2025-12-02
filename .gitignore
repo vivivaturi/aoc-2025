@@ -1,0 +1,9 @@
+# Rust
+target/
+Cargo.lock
+
+# macOS
+.DS_Store
+
+# Input files (uncomment if you want to ignore inputs)
+# */input.txt
