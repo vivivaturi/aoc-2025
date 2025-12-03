@@ -1,0 +1,15 @@
+[package]
+name = "day03"
+version = "0.1.0"
+edition = "2024"
+default-run = "main"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+name = "alternative"
+path = "src/alternative.rs"
+
+[dependencies]

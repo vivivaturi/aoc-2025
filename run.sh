@@ -14,12 +14,10 @@ fi
 
 cd "$DAY"
 
-# Detect language and run
+# Run Rust solution
 if [ -f "Cargo.toml" ]; then
     cargo run
-elif [ -f "package.json" ]; then
-    npm start
 else
-    echo "Unknown project type in $DAY"
+    echo "No Rust project found in $DAY"
     exit 1
 fi
