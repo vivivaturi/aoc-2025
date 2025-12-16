@@ -30,9 +30,3 @@ To run alternative solutions:
 ```bash
 cd day03 && cargo run --bin alternative
 ```
-
-## Days
-
-- Day 1: Rust
-- Day 2: Rust (with alternative solution)
-- Day 3: Rust (with optimized alternative solution)
